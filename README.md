@@ -3,7 +3,7 @@ linear segmentation of 2d digital curve<br/>
 
 | INPUT | OUTPUT |
 | ------------- | ------------- |
-| <img src="https://github.com/BoguslawObara/curve_segmentation2d/blob/master/im/curve.png" width="250">  | <img src="https://github.com/BoguslawObara/curve_segmentation2d/blob/master/im/curve_seg.png" width="295"> |
+| <img src="https://github.com/BoguslawObara/curve_segmentation2d/blob/master/im/curve.png" width="250">  | <img src="https://github.com/BoguslawObara/curve_segmentation2d/blob/master/im/curve_seg.png" width="250"> |
 
 
 If you find this code useful in your research and developement, please consider citing:
