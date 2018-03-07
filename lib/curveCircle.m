@@ -1,0 +1,21 @@
+function m = curveCircle(type)
+    im=zeros(10,10);
+    im(3,1) = 1;
+    im(4,1) = 1;
+    im(5,1) = 1;
+    im(2,2) = 1;
+    im(6,2) = 1;
+    im(1,3) = 1;
+    im(7,3) = 1;
+    im(1,4) = 1;
+    im(7,4) = 1;
+    im(1,5) = 1;
+    im(7,5) = 1;        
+    im(2,6) = 1;        
+    im(6,6) = 1;        
+    im(3,7) = 1;        
+    im(4,7) = 1;        
+    im(5,7) = 1;        
+    [x,y] = contour2d(im,type);
+    m = [y,x];         
+end
